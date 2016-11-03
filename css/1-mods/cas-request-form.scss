@@ -1,0 +1,215 @@
+#EMERGANCY{
+  appearance: none;
+  background-color: red;
+  border: 0;
+  border-radius: $base-border-radius;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: 8px;
+  margin-left: .5em;
+  text-decoration: none;
+  transition: background-color $base-duration $base-timing;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background-color: shade(red, 20%);
+    color: #fff;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+}
+
+
+.error{
+  color: red;
+
+}
+
+.requestfrom-main-title{
+width: 6em;
+margin: 0em;
+padding: 0em;
+}
+
+#tabs-1,
+#tabs-2,
+#tabs-3,
+#tabs-4{
+  background-color: #fbfafa;
+}
+
+.left-screen-split {
+  width: 45%;
+
+}
+
+.right-screen-split{
+  overflow-y: scroll;
+  padding: 1em;
+  width: 50%;
+  max-height: 90%;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  clear: both;
+}
+
+#job-list-title{
+  text-align: center;
+}
+
+.job-ol{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+}
+
+.column {
+  width: 100%;
+  float: left;
+  padding-bottom: 1em;
+
+}
+.portlet {
+  margin: 0 1em 1em 0;
+  padding: 0.3em;
+
+}
+.portlet-header {
+  padding: 0.2em 0.3em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.portlet-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -8px;
+}
+.portlet-content {
+  padding: 0.4em;
+}
+.portlet-placeholder {
+  border: 1px dotted black;
+  margin: 0 1em 1em 0;
+  height: 50px;
+}
+
+.portlet-content{
+  display: none;
+}
+
+.PatientsName{
+  position: absolute;
+  right: 4em;
+
+}
+
+.breachTime{
+  position: relative;
+  left: 6em;
+
+}
+
+.cub{
+  position: relative;
+  left: 2em;
+
+}
+
+
+#message{
+  width: 109em;
+  min-height: 68px;
+  margin: 0;
+  padding-top: .8em;
+  }
+
+.outer-logo-container-closed{
+  width: 109em;
+  padding: 0em;
+  margin: .8em;
+  position: relative;
+  right: 132em;
+  top: -0.5em;
+}
+
+
+.outer-logo-container-open{
+  width: 100em;
+  margin: .8em;
+  position: relative;
+  right: 132em;
+  top: -0.5em;
+  animation-name: logoMessage;
+  animation-duration: 2500ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 300ms;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes logoMessage {
+  0% {
+  right: 132em;
+  }
+  10%{
+
+  }
+  20% {
+
+  }
+  30% {
+
+  }
+  40% {
+
+  }
+  50%{
+    right: 5em;
+   }
+  60% {
+    right: 5em;
+   }
+  70% {
+    right: 5em;
+   }
+  80%{
+    right: 5em;
+   }
+  90% {
+    right: 5em;
+   }
+  100% {
+  right: 5em;
+  }
+}
+
+
+#logo{
+  margin-left: .8em;
+  margin-right: .8em;
+  margin-top: .8em;
+  margin-bottom: 0em;
+  position: absolute;
+  left: 130em;
+  top: -.8em;
+}

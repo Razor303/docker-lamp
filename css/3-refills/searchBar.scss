@@ -1,0 +1,22 @@
+.search-bar {
+  width: 35%;
+
+  form {
+    position: relative;
+  }
+
+  input {
+    box-sizing: border-box;
+    display: block;
+    margin: 0.5em;
+    position: relative;
+    width: 100%;
+  }
+
+  .base-button {
+    @include position(absolute, 0 0 0 null);
+    padding: 5px 10px;
+
+  }
+
+}

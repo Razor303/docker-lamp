@@ -1,0 +1,38 @@
+
+
+.rota-lists-title,
+.av-staff-table-title{
+  text-align: center;
+}
+
+#cover-needed{
+  width: 45%;
+}
+
+#av-staff{
+  width: 45%;
+}
+
+#scheduler-controls{
+  min-width: 98%;
+}
+
+.rotas-lists
+#admin-addUser-output-form,
+#admin-add-user-form,
+#admin-location-form{
+    overflow-y: scroll;
+    display: inline-block;
+    margin: 1.4em;
+    height: 35em;
+    border: .1em solid $light-gray;
+    border-radius: $base-border-radius;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#location-form-table{
+  width: auto;
+  height: 12em;
+  overflow-y: scroll;
+}
